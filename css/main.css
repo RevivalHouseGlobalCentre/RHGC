@@ -4202,5 +4202,52 @@ html.no-csstransitions .hero-content {
     z-index: 1;
   }
 }
+@media screen and (max-width: 480px) {
+  /* Simulate fixed background for hero */
+  .s-hero {
+    background-image: url('images/hero-bg-3000.jpg'); /* adjust path as needed */
+    background-attachment: scroll; /* fallback */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #000; /* fallback color if image fails */
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Push hero content even lower */
+  .hero-content {
+    padding-top: 82vh !important;
+    padding-bottom: 8vh !important;
+    z-index: 2;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 1.2rem;
+  }
+
+  .btn-group {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .btn-group .btn {
+    max-width: 240px;
+    width: 90%;
+    font-size: 1rem;
+    padding: 1rem 1.4rem;
+  }
+
+  .hero-scroll {
+    margin-top: 2.5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
 
 
