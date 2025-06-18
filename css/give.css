@@ -1,0 +1,27 @@
+/* Make forms visible by default */
+.give-form {
+    display: block;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Style form elements */
+.payment-form .form-field {
+    margin-bottom: 1.5rem;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.payment-form input,
+.payment-form select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
