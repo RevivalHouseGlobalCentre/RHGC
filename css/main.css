@@ -4252,10 +4252,25 @@ html.no-csstransitions .hero-content {
 
 .events-list__meta,
 .events-list__meta li {
-  color: #ffffff;
+  color: #000000;
 }
 .events-list__meta,
 .events-list__meta li {
+  color: #000000 !important;
+}
+.s-series .events-list__meta,
+.s-series .events-list__meta li {
   color: #ffffff !important;
 }
+.s-series .events-list__meta i,
+.s-series .events-list__meta svg {
+  color: #ffffff !important;
+  fill: #ffffff !important; /* for SVGs */
+}
+.s-series .events-list__meta li::before {
+  filter: brightness(0) invert(1); /* inverts dark icons to light */
+}
+
+
+
 
