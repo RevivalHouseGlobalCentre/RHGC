@@ -1,8 +1,6 @@
-[[edge_handlers]]
-path = "/sitemap.xml"
-handler = "force-cache.js"
-[[headers]]
+[[headers]] 
   for = "/sitemap.xml"
   [headers.values]
     Content-Type = "text/xml"
-    Cache-Control = "no-cache"
+    X-Robots-Tag = "noindex"
+    Cache-Control = "max-age=0, must-revalidate"
