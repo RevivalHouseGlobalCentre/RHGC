@@ -1,3 +1,8 @@
 [[edge_handlers]]
 path = "/sitemap.xml"
 handler = "force-cache.js"
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "text/xml"
+    Cache-Control = "no-cache"
