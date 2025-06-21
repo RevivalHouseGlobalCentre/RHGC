@@ -1,0 +1,3 @@
+[[edge_handlers]]
+path = "/sitemap.xml"
+handler = "force-cache.js"
