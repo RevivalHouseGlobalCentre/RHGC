@@ -1,6 +1,10 @@
+[build]
+  publish = "./"
+  command = ""
+
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
     Content-Type = "text/xml; charset=UTF-8"
-    X-Sitemap-Valid: "True"
-    Cache-Control: "no-transform"
+    X-Sitemap-Valid = "True"
+    Cache-Control = "no-transform"
