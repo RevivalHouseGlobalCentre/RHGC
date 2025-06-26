@@ -1,21 +1,21 @@
 {
-  "name": "revival-house-global-frontend",
+  "name": "Revival House Global Centre-frontend",
   "version": "1.0.0",
+  "description": "Frontend codebase for Revival House Global Centre website.",
   "main": "index.js",
   "scripts": {
-  "dev": "live-server",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "dev": "live-server",
+    "test": "echo \"No tests yet\""
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gacode0/Revival-House-Global-Frontend.git"
+    "url": "https://github.com/revivalhouseglobalcentre/rhgc.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["revival", "church", "frontend", "netlify"],
+  "author": "Godwin W. Author",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gacode0/Revival-House-Global-Frontend/issues"
+    "url": "https://github.com/revivalhouseglobalcentre/rhgc/issues"
   },
-  "homepage": "https://github.com/gacode0/Revival-House-Global-Frontend#readme",
-  "description": ""
+  "homepage": "https://github.com/revivalhouseglobalcentre/rhgc#readme"
 }
