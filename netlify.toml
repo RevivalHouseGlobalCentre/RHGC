@@ -5,6 +5,5 @@
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
-    Content-Type = "text/xml; charset=UTF-8"
-    X-Sitemap-Valid = "True"
+    Content-Type = "application/xml"
     Cache-Control = "no-transform"
